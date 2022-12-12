@@ -1,0 +1,60 @@
+td {
+  color: var(--secondary-color);
+}
+th {
+  color: var(--primary-color);
+}
+td a {
+  color: var(--secondary-color);
+}
+.info-heading {
+  border-top: 1px solid var(--secondary-color);
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.table1 {
+  background-color: var(--background-color);
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 8px;
+  background: rgba(111, 195, 232, 0.05);
+  border-radius: 8px;
+}
+.table2 {
+  background-color: var(--background-color);
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 8px;
+  background: rgba(111, 195, 232, 0.05);
+  border-radius: 8px;
+  margin-left: 30px;
+}
+.table3 {
+  background-color: var(--background-color);
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 8px;
+  background: rgba(111, 195, 232, 0.05);
+  border-radius: 8px;
+  margin-left: 30px;
+}
+.info {
+  background-color: var(--background-color);
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 8px;
+  background: rgba(111, 195, 232, 0.05);
+  border-radius: 8px;
+  background-color: var(--background-color);
+}
+@media screen and (max-width: 900px) {
+  .table1,
+  .table2,
+  .table3 {
+    margin-left: 0;
+  }
+}

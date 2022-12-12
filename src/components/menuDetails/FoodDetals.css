@@ -1,0 +1,20 @@
+.food-container {
+  background: var(--background-color);
+  border-radius: 8px;
+  padding: 50px 167px 94px 62px;
+  margin-top: 62px;
+}
+.details {
+  color: var(--primary-color);
+  
+}
+.food-details{
+  padding-bottom: 77px;
+}
+.coffeeImg{
+  padding-right: 51px;
+}
+.innerText{
+  padding-left: 49px;
+  color: var(--secondary-color);
+}

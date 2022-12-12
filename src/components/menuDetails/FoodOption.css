@@ -1,0 +1,25 @@
+.option {
+  color: var(--primary-color);
+}
+.sub-section {
+  display: flex;
+}
+.food-option-container {
+  margin-top: 60px;
+  background-color: var(--background-color);
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 8px;
+}
+.heading {
+  color: var(--primary-color);
+  background: rgba(111, 195, 232, 0.05);
+  box-shadow: inset 0px 1px 0px #d9dde2, inset 0px -1px 0px #d9dde2;
+  border-radius: 10px 10px 0px 0px;
+}
+.table-data {
+  color: var(--secondary-color);
+}
+.quantity {
+  text-align: center;
+}
